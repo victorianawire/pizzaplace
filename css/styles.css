@@ -304,7 +304,7 @@
         opacity: 0.9;
     }
     
-    .choise {
+    .choice {
         display: none;
         padding-left: 2%;
         padding-right: 2%;
@@ -326,7 +326,7 @@
         color: white;
     }
     
-    .choise h2 {
+    .choice h2 {
         color: black;
         text-align: left;
     }
@@ -377,7 +377,7 @@
         display: none;
     }
     
-    #finalmessage {
+    #finallmessage {
         display: none;
         padding-top: 10%;
         padding-right: 10%;

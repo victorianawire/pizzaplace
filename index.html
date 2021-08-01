@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title>Pizza Place</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="icon" href="/images/pp.png" alt=" logo">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Cormorant|Eczar|El+Messiri|Itim|Sancreek|Wallpoet&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/mdb.min.css">
@@ -16,10 +17,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-144351462-1');
+    </script>
 </head>
 
 <body>
+    <script type="text/javascript" src="/js/index.js"></script>
+    v
     <header>
         <div class="view landing">
             <div id="overlay">
@@ -278,8 +290,8 @@
                             </table>
                             <p id="pizzatotal"></p>
                             <p id="totalbill"></p>
-                            <p id="addedprice">Delivery will cost sh. 150</p>
-                            <p id="finalmessage"></p>
+                            <p id="addedprice">Delivery charges: sh. 150</p>
+                            <p id="finallmessage"></p>
                         </div>
                         <button class="btn btn-orange addPizza">Add Pizza</button>
                         <button class="btn btn-orange" id="checkout">Checkout</button>
@@ -340,6 +352,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="/js/index.js"></script>
+    <script src="/js/index1.js"></script>
 </body>
 
 </html>

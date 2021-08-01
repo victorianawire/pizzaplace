@@ -1610,7 +1610,7 @@
                 .table {
                     width: 100%;
                     margin-bottom: 1rem;
-                    color: #212529;
+                    color: green;
                 }
                 
                 .table th,
@@ -1635,12 +1635,12 @@
                 }
                 
                 .table-bordered {
-                    border: 1px solid #dee2e6;
+                    border: 1px solid green;
                 }
                 
                 .table-bordered th,
                 .table-bordered td {
-                    border: 1px solid #dee2e6;
+                    border: 1px solid green;
                 }
                 
                 .table-bordered thead th,
@@ -1656,7 +1656,7 @@
                 }
                 
                 .table-striped tbody tr:nth-of-type(odd) {
-                    background-color: rgba(0, 0, 0, 0.05);
+                    background-color: gray;
                 }
                 
                 .table-hover tbody tr:hover {
@@ -1762,7 +1762,7 @@
                 .table-warning td,
                 .table-warning thead th,
                 .table-warning tbody+tbody {
-                    border-color: #ffdf7e;
+                    border-color: green;
                 }
                 
                 .table-hover .table-warning:hover {
