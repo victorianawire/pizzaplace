@@ -34,7 +34,6 @@ h5 {
     height: 100%;
     width: 100%;
     position: absolute;
-    /* overflow-x: hidden; */
 }
 
 #head {
@@ -55,6 +54,8 @@ nav .navbar {
     /* padding-right: 50px; */
     font-size: 20px;
     font-weight: 700;
+    text-align: right;
+    color: black;
 }
 
 .landing {
@@ -100,9 +101,20 @@ nav .navbar {
 
 .col-md-4 {
     border-radius: 10%;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #about-us {
@@ -111,7 +123,7 @@ nav .navbar {
 }
 
 .about-pic {
-    background-color: #ffa500;
+    background-color: black;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -121,7 +133,7 @@ nav .navbar {
 #about-us .content {
     padding: 65px 50px 85px;
     width: 100%;
-    background-color: #ffa500;
+    background-color: black;
     float: right;
     text-align: justify;
     overflow-x: hidden;
@@ -149,7 +161,7 @@ html {
 }
 
 body {
-    color: #696969;
+    color: black;
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -205,22 +217,6 @@ img {
     flex: 1 1 auto;
     flex-direction: column;
     padding: 1rem;
-}
-
-.card__image--flowers {
-    background-image: url("/images/ct.jpg");
-}
-
-.card__image--river {
-    background-image: url("/images/logo/logo.png");
-}
-
-.card__image--record {
-    background-image: url("/images/ct.jpg");
-}
-
-.card__image--fence {
-    background-image: url(https://unsplash.it/800/600?image=59);
 }
 
 .card__title {
@@ -292,10 +288,11 @@ img {
     background-repeat: no-repeat;
     padding-top: 4%;
     padding-bottom: 4%;
+    opacity: 0.9;
 }
 
 .order-overlay {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #168039;
     margin-left: 2%;
     margin-right: 2%;
     padding-bottom: 20px;
@@ -325,7 +322,7 @@ th {
 }
 
 .choise h2 {
-    color: orange;
+    color: black;
     text-align: left;
 }
 
@@ -373,7 +370,7 @@ th {
     font-size: 22px;
     padding-right: 8%;
     padding-left: 5%;
-    color: #ffa500;
+    color: black;
 }
 
 @media only screen and (max-width: 485px) {

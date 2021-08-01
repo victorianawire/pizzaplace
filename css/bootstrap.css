@@ -4300,6 +4300,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
     margin-bottom: -1px;
+    text-align: right;
 }
 
 .nav-tabs .nav-link {
@@ -4314,14 +4315,14 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link.disabled {
-    color: #6c757d;
+    color: black;
     background-color: transparent;
     border-color: transparent;
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
+    color: black;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4346,6 +4347,7 @@ input[type="button"].btn-block {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     text-align: center;
+    color: black;
 }
 
 .nav-justified .nav-item {
@@ -4354,6 +4356,7 @@ input[type="button"].btn-block {
     -ms-flex-positive: 1;
     flex-grow: 1;
     text-align: center;
+    color: #000;
 }
 
 .tab-content>.tab-pane {
@@ -4417,6 +4420,7 @@ input[type="button"].btn-block {
 .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
+    color: #000;
 }
 
 .navbar-nav .dropdown-menu {
@@ -4428,6 +4432,7 @@ input[type="button"].btn-block {
     display: inline-block;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    color: #000;
 }
 
 .navbar-collapse {
@@ -4488,6 +4493,7 @@ input[type="button"].btn-block {
     .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem;
+        color: #000;
     }
     .navbar-expand-sm>.container,
     .navbar-expand-sm>.container-fluid {
@@ -4886,12 +4892,14 @@ input[type="button"].btn-block {
 
 .card-img-top {
     width: 100%;
+    height: 100px;
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
 }
 
 .card-img-bottom {
     width: 100%;
+    height: 100px;
     border-bottom-right-radius: calc(0.25rem - 1px);
     border-bottom-left-radius: calc(0.25rem - 1px);
 }
@@ -5059,7 +5067,7 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb-item.active {
-    color: #6c757d;
+    color: black;
 }
 
 .pagination {
@@ -6521,11 +6529,11 @@ a.close.disabled {
 }
 
 .carousel-item {
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     display: none;
-    float: left;
-    width: 100%;
-    margin-right: -100%;
+    width: 50%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: -webkit-transform 0.6s ease-in-out;
@@ -6542,7 +6550,8 @@ a.close.disabled {
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .carousel-item-next:not(.carousel-item-left),
@@ -6594,9 +6603,9 @@ a.close.disabled {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: flex-start;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 15%;
     color: #fff;
     text-align: center;
