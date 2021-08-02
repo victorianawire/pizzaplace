@@ -28,15 +28,19 @@ $(document).ready(function() {
                 price = 0;
                 break;
             case "large":
-                price = 1200;
+                price = 1100;
                 console.log(price);
                 break;
             case "medium":
                 price = 850;
                 console.log("The price is " + price);
                 break;
+            case "regular":
+                price = 700;
+                console.log("The price is " + price);
+                break;
             case "small":
-                price = 600;
+                price = 500;
                 console.log(price);
             default:
                 console.log("error");
@@ -57,7 +61,7 @@ $(document).ready(function() {
             default:
                 console.log("No price");
         }
-        let topping_value = ptopping.length * 50;
+        let topping_value = ptopping.length * 100;
         console.log("toppins value" + topping_value);
 
         if ((psize == "0") && (pcrust == "0")) {
@@ -98,15 +102,19 @@ $(document).ready(function() {
                     price = 0;
                     break;
                 case "large":
-                    price = 1200;
+                    price = 1100;
                     console.log(price);
                     break;
                 case "medium":
                     price = 850;
                     console.log("The price is " + price);
                     break;
+                case "regular":
+                    price = 700;
+                    console.log("The price is " + price);
+                    break;
                 case "small":
-                    price = 600;
+                    price = 500;
                     console.log(price);
                 default:
                     console.log("error");
@@ -127,7 +135,7 @@ $(document).ready(function() {
                 default:
                     console.log("No price");
             }
-            let topping_value = ptopping.length * 50;
+            let topping_value = ptopping.length * 100;
             console.log("toppins value" + topping_value);
             total = price + crust_price + topping_value;
             console.log(total);
