@@ -38,7 +38,7 @@ $(document).ready(function() {
                 price = 0;
                 break;
             case "large":
-                price = 1200;
+                price = 1100;
                 console.log(price);
                 break;
             case "medium":
@@ -67,7 +67,7 @@ $(document).ready(function() {
             default:
                 console.log("No price");
         }
-        let topping_value = ptopping.length * 50;
+        let topping_value = ptopping.length * 100;
         console.log("toppins value" + topping_value);
 
         if ((psize == "0") && (pcrust == "0")) {
@@ -108,7 +108,7 @@ $(document).ready(function() {
                     price = 0;
                     break;
                 case "large":
-                    price = 1200;
+                    price = 1100;
                     console.log(price);
                     break;
                 case "medium":
@@ -137,7 +137,7 @@ $(document).ready(function() {
                 default:
                     console.log("No price");
             }
-            let topping_value = ptopping.length * 50;
+            let topping_value = ptopping.length * 100;
             console.log("toppins value" + topping_value);
             total = price + crust_price + topping_value;
             console.log(total);
